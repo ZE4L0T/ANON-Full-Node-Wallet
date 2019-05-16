@@ -58,7 +58,7 @@ https://assets.anonfork.io/
 
 ### Instructions for Windows installation:
 
-*Friendly reminder to backup before making changes*
+*Friendly reminder to backup before making changes on your system*
 
 1. Optional part:
 Go to your folder C:\Users\(YOU)\appdata\roaming\ANON

@@ -31,7 +31,7 @@ Choose the Windows or Mac installer, depending on your OS:
 "AnonymousDesktopWallet-2.0.1.app.zip" for Mac
 
 
-### Download the latest binaries
+### Download the latest binaries:
 
 https://github.com/anonymousbitcoin/anon/releases
 
@@ -41,13 +41,13 @@ The binaries are contained in "Assets"
 
 "Anon-full-node-v.2.2.0-mac.zip" for Mac
 
-### Download the ZcashParams (required for sprout/sapling)
+### Download the ZcashParams (required for sprout/sapling):
 
 You need the 5 files found here:
 
 https://assets.anonfork.io/trusted-setup/
 
-### OPTIONAL - Download the bootstrap for fast sycing to blockheight 50,000
+### OPTIONAL - Download the bootstrap for fast sycing to blockheight 50,000:
 
 Adhering to the maxim "don't trust, verify" you should NOT use the bootstrap.
 But its there for your convenience if you want it.
@@ -86,7 +86,7 @@ Disable your antivirus temporarily, and CAREFULLY run through the instructions a
 Once you have the wallet working, restore your balances with your private keys, and/or put your backup "roaming\ANON\" contents back WITHOUT the old "Blocks" and "Chainstate" folders.
 
 
-### Notes from ZENCash - Known Issues and Limitations
+### Notes from ZENCash - Known Issues and Limitations:
 
 1. **Issue:** The Anonymous Desktop GUI Wallet is not compatible with applications that modify the ANON `wallet.dat` file. The wallet should not be used
 with such applications on the same PC. For instance some distributed exchange applications are known to create watch-only addresses in the

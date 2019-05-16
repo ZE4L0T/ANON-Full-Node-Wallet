@@ -61,7 +61,7 @@ https://assets.anonfork.io/
 *Friendly reminder to backup before making changes on your system*
 
 1. Optional part:
-Go to your folder C:\Users \(YOU)\appdata\roaming\ANON
+Go to your folder C:\Users\(YOU)\appdata\roaming\ANON
 Create the folder "ANON" in "roaming" if it does not exist. Appdata is a folder that is hidden by your system by default.
 Inside this ANON folder, delete "Blocks" and "Chainstate" folders if they exist.
 Unzip "anon-bootstrap.zip" inside the ANON folder. You should now see new "Blocks" and "Chainstate" folders.
@@ -80,7 +80,7 @@ You should now have new anond and anon-cli files in the same folder as Anonymous
 
 5. Open the wallet by double-clicking AnonymousDesktopWallet-1.1.2.jar
 
-6. If this does not work, backup the CONTENTS of the "roaming/ANON" folder someplace safe, and delete all ANON files and folders from your machine (you should have already saved your private keys!).
+6. If this does not work, backup the CONTENTS of the "roaming\ANON" folder someplace safe, and delete all ANON files and folders from your machine (you should have already saved your private keys!).
 Make sure you have enough space on C:\ drive. If you have less than 20GB, make some room.
 Disable your antivirus temporarily, and CAREFULLY run through the instructions again. 
 Once you have the wallet working, restore your balances with your private keys, and/or put your backup "roaming\ANON\" contents back WITHOUT the old "Blocks" and "Chainstate" folders.

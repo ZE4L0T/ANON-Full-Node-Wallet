@@ -61,7 +61,7 @@ https://assets.anonfork.io/
 *Friendly reminder to backup before making changes on your system*
 
 1. Optional part:
-Go to your folder C:\Users\(YOU)\appdata\roaming\ANON
+Go to your folder C:\Users \(YOU)\appdata\roaming\ANON
 Create the folder "ANON" in "roaming" if it does not exist. Appdata is a folder that is hidden by your system by default.
 Inside this ANON folder, delete "Blocks" and "Chainstate" folders if they exist.
 Unzip "anon-bootstrap.zip" inside the ANON folder. You should now see new "Blocks" and "Chainstate" folders.

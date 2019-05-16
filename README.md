@@ -22,7 +22,7 @@ Choose the Windows or Mac installer, depending on your OS.
 "ANON_Full_Node_Wallet_Installer_v2.1.1.exe" for Windows
 "AnonymousDesktopWallet-2.0.1.app.zip" for Mac
 
-###Instructions for Windows installation:
+### Instructions for Windows installation:
 
 
 ### Notes from ZENCash - Known Issues and Limitations

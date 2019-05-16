@@ -23,7 +23,7 @@ https://github.com/anonymousbitcoin/anon-full-node-wallet/releases
 
 The installer is contained in "Assets"
 
-Choose the Windows or Mac installer, depending on your OS.
+Choose the Windows or Mac installer, depending on your OS:
 
 "ANON_Full_Node_Wallet_Installer_v2.1.1.exe" for Windows
 
@@ -40,9 +40,49 @@ The binaries are contained in "Assets"
 
 "Anon-full-node-v.2.2.0-mac.zip" for Mac
 
+### Download the ZcashParams (required for sprout/sapling)
 
-Instructions for Windows installation:
+You need the 5 files found here:
 
+https://assets.anonfork.io/trusted-setup/
+
+### OPTIONAL - Download the bootstrap for fast sycing to blockheight 50,000
+
+Adhering to the maxim "don't trust, verify" you should NOT use the bootstrap.
+But its there for your convenience if you want it.
+
+https://assets.anonfork.io/
+
+"anon-bootstrap.zip"
+
+### Instructions for Windows installation:
+
+*Friendly reminder to backup before making changes*
+
+1. Optional part:
+Go to your folder C:\Users\(YOU)\appdata\roaming\ANON
+Create the folder "ANON" in "roaming" if it does not exist. Appdata is a folder that is hidden by your system by default.
+Inside this ANON folder, delete "Blocks" and "Chainstate" folders if they exist.
+Unzip "anon-bootstrap.zip" inside the ANON folder. You should now see new "Blocks" and "Chainstate" folders.
+
+2. Go to your folder C:\Users\(YOU)\appdata\roaming\ZcashParams
+If you have this folder, and the 5 files inside, skip to step 3.
+Create the folder "ZcashParams" in "roaming" if it does not exist - make sure to spell it correctly.
+Put the 5 files that you downloaded from https://assets.anonfork.io/trusted-setup/ in this folder.
+
+3. Run the installer.
+Change the location it attempts to install to - make it C:\ANON for example.
+
+4. Unzip the new v.2.2.0 binaries into the folder you created in step 3.
+Replace the existing files if asked.
+You should now have new anond and anon-cli files in the same folder as AnonymousDesktopWallet-1.1.2.jar
+
+5. Open the wallet by double-clicking AnonymousDesktopWallet-1.1.2.jar
+
+6. If this does not work, backup the CONTENTS of the "roaming/ANON" folder someplace safe, and delete all ANON files and folders from your machine (you should have already saved your private keys!).
+Make sure you have enough space on C:\ drive. If you have less than 20GB, make some room.
+Disable your antivirus temporarily, and CAREFULLY run through the instructions again. 
+Once you have the wallet working, restore your balances with your private keys, and/or put your backup "roaming\ANON\" contents back WITHOUT the old "Blocks" and "Chainstate" folders.
 
 
 ### Notes from ZENCash - Known Issues and Limitations

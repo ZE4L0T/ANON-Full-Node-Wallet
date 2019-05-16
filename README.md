@@ -9,6 +9,10 @@ A JAVA based Full Node Wallet for the ANON Network
 
 #### Always test with small amounts first! It is your responsibility to properly handle your private keys!
 
+#### Do not rely on the wallet.dat file, record your private keys!
+
+#### RECORD YOUR PRIVATE KEYS!!
+
 #### For best security, it is recommended to build the entire Anonymous wallet by yourself, directly from GitHub.
 
 ---
@@ -27,6 +31,7 @@ Choose the Windows or Mac installer, depending on your OS.
 ---
 
 ### Instructions for Windows installation:
+
 
 
 ### Notes from ZENCash - Known Issues and Limitations

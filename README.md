@@ -72,7 +72,7 @@ Create the folder "ZcashParams" in "roaming" if it does not exist - make sure to
 Put the 5 files that you downloaded from https://assets.anonfork.io/trusted-setup/ in this folder.
 
 3. Run the installer.
-Change the location it attempts to install to - make it C:\ANON for example.
+Change the location it attempts to install to - make it C:\ANON .
 
 4. Unzip the new v.2.2.0 binaries into the folder you created in step 3.
 Replace the existing files if asked.

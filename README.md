@@ -18,6 +18,7 @@ A JAVA based Full Node Wallet for the ANON Network
 ---
 
 ### Download the latest release:
+
 https://github.com/anonymousbitcoin/anon-full-node-wallet/releases
 
 The installer is contained in "Assets"
@@ -28,9 +29,19 @@ Choose the Windows or Mac installer, depending on your OS.
 
 "AnonymousDesktopWallet-2.0.1.app.zip" for Mac
 
----
 
-### Instructions for Windows installation:
+### Download the latest binaries
+
+https://github.com/anonymousbitcoin/anon/releases
+
+The binaries are contained in "Assets"
+
+"Anon-full-node-v.2.2.0-win-64.zip" for Windows
+
+"Anon-full-node-v.2.2.0-mac.zip" for Mac
+
+
+Instructions for Windows installation:
 
 
 

@@ -1,84 +1,28 @@
 # ANON-Full-Node-Wallet
 A JAVA based Full Node Wallet for the ANON Network
-**Platforms:** Windows, Mac, Linux
+**Platforms:** Windows, Mac
+
 [Java](https://java.com/en/download/) must be installed.
+
 #### WARNING: Be careful when using this software! It is highly experimental.
+
 #### Always test with small amounts first! It is your responsibility to properly handle your private keys!
----
+
 #### For best security, it is recommended to build the entire Anonymous wallet by yourself, directly from GitHub.
 
-##### 1 - Operating System and Tools
+---
 
-   You will need Git & Java (JDK7 or later)
+### Download the latest release:
+https://github.com/anonymousbitcoin/anon-full-node-wallet/releases
 
-   **MacOS -**
+The installer is contained in "Assets"
 
-   Download & Install [JDK 10](https://docs.oracle.com/javase/10/install/overview-jdk-10-and-jre-10-installation.htm)
+Choose the Windows or Mac installer, depending on your OS.
+"ANON_Full_Node_Wallet_Installer_v2.1.1.exe" for Windows
+"AnonymousDesktopWallet-2.0.1.app.zip" for Mac
 
-   **Ubuntu Linux -**
-   ```
-   sudo apt-get install git default-jdk ant
-   ```
-   RedHat/CentOS/Fedora Linux -
-   ```
-   sudo yum install java-1.8.0-openjdk git ant
-   ```
-   The name of the JDK package (`java-1.8.0-openjdk`) may vary depending on the Linux system, so look around if name `java-1.8.0-openjdk` can't be found or doesn't work.
+###Instructions for Windows installation:
 
-   Commands `git`, `java`, `javac` need to be runnable from command line
-   before proceeding with build.
-
-##### 2 - Building from Source Code
-
-   First, clone this Git repository:
-   ```
-   git clone https://github.com/anonymousbitcoin/anon-full-node-wallet
-   ```
-   Enter:
-   ```
-   cd anon-full-node-wallet
-   ```
-   Build:
-   ```
-   ./gradlew clean fatJar
-   ```
-   This may take a few seconds. When it finishes, you will now see `build/libs/AnonymousDesktopWallet-VERSION.jar`.
-
-   You need to make this file executable:
-   ```
-   chmod u+x build/libs/AnonymousDesktopWallet-VERSION.jar
-   ```
-   Copy the AnonymousDesktopWallet-VERSION.jar from the build/libs folder and place it beside the `anond` and `anon-cli` within the `~/anon/src` folder:
-   ```
-   cp build/libs/AnonymousDesktopWallet-VERSION.jar ~/anon/src/
-   ```
-   At this point the build process is finished! The final product is the GUI Wallet Java JAR:  `~/anon/src/AnonymousDesktopWallet-VERSION.jar`
-
-
-   You can now run the Desktop GUI Wallet:
-
-   ```
-   cd build/libs
-   java -jar AnonymousDesktopWallet-VERSION.jar
-   ```
-
-   Or just double-click it!
-
-
-   If you are using Ubuntu or another Linux, you may need to
-   right-click `AnonymousDesktopWallet-VERSION.jar` file and choose "Open with OpenJDK 8 Runtime".
-
-
-### Setting up your configuration file: (`anon.conf`)
-
-Running the .jar will automatically set up `~/.anon/anon.conf` for you. In some cases, you may need to edit it manually. It should contain:
-```
-txindex=1
-rpcuser=ENTER-RANDOM-ALPHANUMERICAL-PASSWORD
-rpcpassword=ENTER-RANDOM-ALPHANUMERICAL-PASSWORD
-rpcport=3130
-#addnode=...
-```
 
 ### Notes from ZENCash - Known Issues and Limitations
 

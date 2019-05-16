@@ -67,7 +67,6 @@ Inside this ANON folder, delete "Blocks" and "Chainstate" folders if they exist.
 Unzip "anon-bootstrap.zip" inside the ANON folder. You should now see new "Blocks" and "Chainstate" folders.
 
 2. Go to your folder C:\Users\\(YOURNAME)\appdata\roaming\ZcashParams
-
 If you have this folder, and the 5 files inside, skip to step 3.
 Create the folder "ZcashParams" in "roaming" if it does not exist - make sure to spell it correctly.
 Put the 5 files that you downloaded from https://assets.anonfork.io/trusted-setup/ in this folder.

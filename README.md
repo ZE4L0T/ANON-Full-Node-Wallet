@@ -4,7 +4,7 @@ A JAVA based Full Node Wallet for the ANON Network
 
 **Platforms:** Windows, Mac
 
-[Java](https://java.com/en/download/) must be installed.
+[Java](https://java.com/en/download/) must be installed. If using the ANON installer, this will be installed for you.
 
 #### WARNING: Be careful when using this software! It is highly experimental.
 
